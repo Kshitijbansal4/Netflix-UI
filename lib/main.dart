@@ -27,11 +27,10 @@ class HomePage extends StatelessWidget {
       bottomNavigationBar: BottomNavigationBar(
         items: [
           BottomNavigationBarItem(
-            icon: Icon(
-              Icons.home_outlined,
-            ),
-            label: 'Home'
-          ),
+              icon: Icon(
+                Icons.home_outlined,
+              ),
+              label: 'Home'),
           BottomNavigationBarItem(
             icon: Icon(
               Icons.play_arrow_outlined,
@@ -183,7 +182,7 @@ class NetflixAppBar extends StatelessWidget {
               ),
               const SizedBox(width: 24.0),
               Text(
-                'Categories',
+                'Web Series',
                 style: TextStyle(
                   color: Colors.white,
                   fontWeight: FontWeight.bold,
