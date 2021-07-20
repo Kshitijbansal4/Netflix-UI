@@ -61,7 +61,7 @@ class HomePage extends StatelessWidget {
               decoration: BoxDecoration(
                 image: DecorationImage(
                   fit: BoxFit.cover,
-                  image: AssetImage('assets/pb.jpg'),
+                  image: AssetImage('assets/Image1.jpg'),
                 ),
               ),
               child: Container(
@@ -107,17 +107,17 @@ class HomePage extends StatelessWidget {
               child: Row(
                 children: [
                   const SizedBox(width: 8.0),
-                  Movie(image: 'assets/himym.jpg'),
+                  Movie(image: 'assets/Image2.jpg'),
                   const SizedBox(width: 8.0),
-                  Movie(image: 'assets/bb.jpg'),
+                  Movie(image: 'assets/Image3.jpg'),
                   const SizedBox(width: 8.0),
-                  Movie(image: 'assets/rm.jpg'),
+                  Movie(image: 'assets/Image4.jpg'),
                   const SizedBox(width: 8.0),
-                  Movie(image: 'assets/himym.jpg'),
+                  Movie(image: 'assets/Image2.jpg'),
                   const SizedBox(width: 8.0),
-                  Movie(image: 'assets/bb.jpg'),
+                  Movie(image: 'assets/Image3.jpg'),
                   const SizedBox(width: 8.0),
-                  Movie(image: 'assets/rm.jpg'),
+                  Movie(image: 'assets/Image4.jpg'),
                   const SizedBox(width: 8.0),
                 ],
               ),
@@ -153,7 +153,7 @@ class NetflixAppBar extends StatelessWidget {
               Container(
                 height: 30.0,
                 width: 30.0,
-                color: Colors.blue,
+                color: Colors.red,
                 child: Icon(Icons.person, color: Colors.white),
               ),
               const SizedBox(width: 24.0),
