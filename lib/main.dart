@@ -30,7 +30,7 @@ class HomePage extends StatelessWidget {
               icon: Icon(
                 Icons.home_outlined,
               ),
-              label: 'Home'),
+              label: 'HomeButton'),
           BottomNavigationBarItem(
             icon: Icon(
               Icons.play_arrow_outlined,
